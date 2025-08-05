@@ -1,4 +1,4 @@
-#  Jaanhavi;s Website — INTELLIGENCE NODE
+#  Jaanhavi's Website — INTELLIGENCE NODE
 
 > This isn’t just a website. This is a command terminal.
 
