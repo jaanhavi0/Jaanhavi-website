@@ -1,4 +1,4 @@
-#  CHAITANYA'S COMMAND NODE — INTELLIGENCE NODE 01
+# JAANHAVI'S COMMAND NODE — INTELLIGENCE NODE 01
 
 > This isn’t just a website. This is a command terminal.
 
@@ -18,8 +18,7 @@ This contains everything needed to run locally.
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to the Gemini API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
 
 ---
