@@ -26,7 +26,7 @@ import NebulaGradient from './components/NebulaGradient';
 // NEW: A dedicated component for the 3D background scene.
 // It is now completely separate from my HTML content.
 const Scene = () => (
-  <Canvas style={{ position: 'fixed', top: 0, left: 0, zIndex: -1 }}>
+  <Canvas style={{ position: 'fixed', top: 0, left: 0, zIndex: 2 }}>
     <Suspense fallback={null}>
       <Starfield />
     </Suspense>
@@ -57,9 +57,11 @@ const App: React.FC = () => {
   return (
     <>
       {/* global components */}
-     
+       
       <NebulaGradient />
-        <GradientTexture/>
+         <div className='opacity-20'> 
+         <GradientTexture/>
+         </div>
       <CustomCursor />
       <Header links={NAVIGATION_LINKS} />
 
@@ -71,10 +73,11 @@ const App: React.FC = () => {
         <Hero />
 
         <div className="max-w-7xl mx-auto space-y-32 md:space-y-48 lg:space-y-64">
+          <div className='flex py-16'> 
           <Section id="about">
-            <SectionTitle>About Me</SectionTitle>
+            
             <About data={ABOUT_DATA} />
-          </Section>
+          </Section> </div>
 
           <Section id="projects">
             <SectionTitle>Intelligence Constructs</SectionTitle>
@@ -106,6 +109,7 @@ const App: React.FC = () => {
             <Contact contact={CONTACT_DATA} resume={RESUME_DATA} />
           </Section>
         </div>
+       
       </main>
 
       <Footer data={FOOTER_DATA} />

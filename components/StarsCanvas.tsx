@@ -13,7 +13,7 @@ const Starfield = (props: any) => {
   // NEW: Get the scroll progress from our global store.
   const scrollProgress = useScrollStore((state) => state.scrollProgress);
 
-  const [sphere] = useState(() => random.inSphere(new Float32Array(30000), { radius: 10 }));
+  const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 10 }));
 
   useFrame((state, delta) => {
     // Ambient rotation remains the same

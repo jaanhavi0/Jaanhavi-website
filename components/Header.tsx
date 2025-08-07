@@ -84,7 +84,7 @@ export const Header: React.FC<HeaderProps> = ({ links }) => {
             href="#home"
             className="text-2xl lg:text-3xl font-orbitron font-black tracking-wider text-white transition-all duration-300 ease-in-out drop-shadow-[0_3px_3px_rgba(0,0,0,0.8)] can-hover:hover:text-cyan-300 can-hover:hover:scale-105"
           >
-            J<span className="text-brand-primary">/</span>U
+            J<span className="text-brand-primary">/</span>R
           </a>
 
           <nav className="hidden md:flex gap-x-8 items-center">

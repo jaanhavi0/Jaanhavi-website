@@ -34,11 +34,11 @@ const itemVariants: Variants = {
 // --- Main About Component ---
 export const About: React.FC<AboutProps> = ({ data }) => {
     return ( 
-        <section id="about" className="section">  
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+        <section id="about" className="section flex flex-col">  
+            <div className="max-w-7xl mx-auto  lg:px-8 lg:py-28">
 
                 {/* ACTION: Added a consistent main title for the section */}
-                <h2 className="font-orbitron text-3xl text-brand-light mb-16 text-center section-marker">
+             <h2 className="font-orbitron text-3xl text-brand-light mb-16 text-center section-marker py-12 flex">
                     ABOUT 
                 </h2>
                 

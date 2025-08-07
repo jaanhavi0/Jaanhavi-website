@@ -150,7 +150,7 @@ export const Hero: React.FC = () => {
             y: buttonsY,
             marginTop: "var(--space-m)",
           }}
-          className="flex flex-col sm:flex-row gap-4"
+          className="flex flex-col sm:flex-row gap-4 py-12"
         >
           <motion.a
             href="#projects"
