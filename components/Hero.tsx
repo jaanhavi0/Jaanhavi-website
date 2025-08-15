@@ -90,10 +90,10 @@ export const Hero: React.FC = () => {
   style={{ height: '32rem', paddingTop: '2.5rem', paddingBottom: '2rem' }}
 >
   {/* The Logo */}
-  <img src="/logo.svg" alt="My Icon" className="h-[40rem] w-[40rem]" />
+  <img src="/Jaanhavi_logo.svg" alt="My Icon" className="h-[40rem] w-[40rem]" />
 <div  className="flex flex-col justify-center items-center mb-24"> 
 <motion.a
-            href="https://drive.google.com/file/d/1B_YoX1KRsSa7S3vKV1AJ-_fu-Dnz2-Qo/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1bumB9a871PBS1uK3Pct-QiOB1dv91nTH/view?usp=drivesdk"
             target="_blank"                // Opens in new tab
            rel="noopener noreferrer"      // Security best practice with target=_blank
             whileHover={{
